@@ -502,6 +502,10 @@ input, select, textarea {
 				}
 
 		@media screen and (min-width: 961px) and (max-width: 1880px) {
+			
+			#logo h1, #logo p {
+				margin-left: 20px;
+			}
 
 			.row {
 				display: flex;
