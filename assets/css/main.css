@@ -1814,6 +1814,11 @@ input, select, textarea {
 		ol li {
 			padding-left: 0.25em;
 		}
+	
+	.bulletPoints {
+		text-align: left;
+		margin: auto 50px;
+	}
 
 /* Icons */
 
