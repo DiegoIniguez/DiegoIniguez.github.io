@@ -1814,11 +1814,28 @@ input, select, textarea {
 		ol li {
 			padding-left: 0.25em;
 		}
-	
 	.bulletPoints {
 		text-align: left;
 		margin: auto 50px;
 	}
+
+/* Custom */
+	.shopifyBadges img {
+    	max-width: 100%;
+    	height: auto;
+	}
+
+@media (min-width: 768px) {
+    .shopifyBadges {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .shopifyBadges img {
+        width: 48%;
+    }
+}
+	
 
 /* Icons */
 
@@ -2644,7 +2661,11 @@ input, select, textarea {
 				}
 		/* Custom */
 			.shopifyBadges {
-				max-width: 300px;
+				display: block;
+			}
+
+			.shopifyBadges img {
+				width: 85%;
 			}
 
 	}
