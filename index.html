@@ -194,13 +194,13 @@
 							<p>If you have any questions, inquiries, or would like to collaborate, feel free to reach out.  
 								Just fill out the form below, and I'll get back to you as soon as possible.</p>
 
-							<form method="POST" action="https://formsubmit.co/diegoiniguez92@gmail.com">
+							<form id="contactForm" method="POST" action="https://formsubmit.co/diegoiniguez92@gmail.com">
 								<input type="hidden" name="_captcha" value="false">
 								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="name" id="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" id="email" placeholder="Email" /></div>
 									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
+										<textarea name="message" id="message" placeholder="Message"></textarea>
 									</div>
 									<div class="col-12">
 										<input type="submit" value="Send Message" />
@@ -231,6 +231,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/form-validation.js"></script>
 
 	</body>
 </html>
